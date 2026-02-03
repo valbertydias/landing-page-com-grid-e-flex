@@ -15,45 +15,7 @@ body{
     font-weight: 400;
 }
 
-.header{
-    grid-area: header;
-    background-color: #fff;
-}
 
-.header .header-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    min-height: 75px;
-}
-
-.header .logo{
-    font-size: 3rem;
-    font-weight: 700;
-    transition: 0.3s ease-in-out;
-}
-
-.header a:hover .logo{
-    color: coral;
-}
-
-.header nav ul{
-    display: flex;
-}
-
-.header nav ul li a{
-    font-size: 2rem;
-    padding: 10px 30px;
-    border-radius: 50px;
-    font-weight: 500;
-    transition: 0.3s ease-in-out;
-}
-
-.header nav ul li a:hover{
-    background-color: coral;
-    color: #fff;
-}
 
 .hero{
     grid-area: hero;

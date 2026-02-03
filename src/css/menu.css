@@ -106,6 +106,10 @@
 
     .header nav ul{
         display: none;
+         width: 200px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 2rem;
     }
 
     .header input:checked ~ ul {
@@ -115,14 +119,8 @@
     .header nav{
         position: absolute;
         top: 8px;
-        right: 10px;
+        right: 20px;
         z-index: 1;
-    }
-
-    .header nav ul{
-        width: 200px;
-        background-color: #fff;
-        padding: 20px;
     }
 
     .header nav ul a{
